@@ -1,12 +1,16 @@
-Package: testR
+Package: npar
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Pengchen
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Title: Nonparametric group comparisons
+Version: 1.0
+Date: 2015-01-26
+Author: Rob Kabacoff
+Maintainer: Robert Kabacoff <robk@statmethods.net>
+Description: This package assesses group differences using nonparametric
+    statistics. Currently a one-way layout is supported. Kruskal-Wallis tests
+    followed by pairwise Wilcoxon tests are provided. p-values are adjusted
+    for multiple comparisons using the p.adjust() function.
+    Results are plotted via annotated boxplots.
 LazyData: true
-Built: R 4.2.0; ; 2022-05-18 14:10:20 UTC; windows
+License: GPL-3
+Packaged: 2014-11-05 19:06:44 UTC; rkabacoff
+RoxygenNote: 7.1.2
